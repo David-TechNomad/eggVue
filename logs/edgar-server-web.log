@@ -1,0 +1,16 @@
+2020-06-07 17:08:08,841 INFO 8960 [egg-logview] mount log /Users/dsh/Desktop/eggVue2/edgarserver/logs at http://127.0.0.1:7001/__logs
+2020-06-07 17:08:22,205 INFO 8960 [-/::1/-/23ms GET /] [access] ::1: - GET / HTTP/301 39 - 6 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-07 17:08:22,284 INFO 8960 [-/::1/-/17ms GET /app] [access] ::1: - GET /app HTTP/200 802 - 17 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-07 17:08:22,899 INFO 8960 [-/127.0.0.1/-/9ms GET /public/captcha] [access] 127.0.0.1: - GET /public/captcha HTTP/200 8559 http://localhost:7001/app 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-07 17:08:46,699 INFO 8960 [-/127.0.0.1/-/8ms GET /public/captcha] [access] 127.0.0.1: - GET /public/captcha HTTP/200 8145 http://localhost:7001/app 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-07 17:15:25,525 INFO 8960 [-/::1/-/8ms GET /app] [access] ::1: - GET /app HTTP/200 802 - 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-07 17:22:41,569 INFO 8960 [-/::1/-/2ms GET /app] [access] ::1: - GET /app HTTP/200 802 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-07 17:24:26,147 INFO 9268 [egg-logview] mount log /Users/dsh/Desktop/eggVue2/edgarserver/logs at http://127.0.0.1:7001/__logs
+2020-06-07 17:24:33,684 INFO 9293 [egg-logview] mount log /Users/dsh/Desktop/eggVue2/edgarserver/logs at http://127.0.0.1:7001/__logs
+2020-06-07 17:24:39,189 INFO 9304 [egg-logview] mount log /Users/dsh/Desktop/eggVue2/edgarserver/logs at http://127.0.0.1:7001/__logs
+2020-06-07 17:28:48,853 INFO 9304 [-/::1/-/25ms GET /app] [access] ::1: - GET /app HTTP/200 802 - 23 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+2020-06-26 14:58:41,694 INFO 3146 [egg-logview] mount log /Users/dsh/Desktop/eggVue2/edgarserver/logs at http://127.0.0.1:7001/__logs
+2020-06-26 14:58:53,358 INFO 3163 [egg-logview] mount log /Users/dsh/Desktop/eggVue2/edgarserver/logs at http://127.0.0.1:7001/__logs
+2020-06-26 14:59:06,762 INFO 3163 [-/::1/-/33ms GET /] [access] ::1: - GET / HTTP/301 39 - 25 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2020-06-26 14:59:06,884 INFO 3163 [-/::1/-/18ms GET /app] [access] ::1: - GET /app HTTP/200 802 - 18 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2020-06-26 14:59:07,385 INFO 3163 [-/127.0.0.1/-/9ms GET /public/captcha] [access] 127.0.0.1: - GET /public/captcha HTTP/200 6461 http://localhost:7001/app 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36

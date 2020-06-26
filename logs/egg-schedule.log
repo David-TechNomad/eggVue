@@ -1,0 +1,24 @@
+2020-06-07 17:08:08,897 INFO 8959 [Timer] /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40911105ms at 2020-06-08 04:30:00.002
+2020-06-07 17:08:08,898 INFO 8959 [Timer] /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 24711102ms at 2020-06-08 00:00:00.000
+2020-06-07 17:08:08,898 INFO 8959 [Timer] /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24712102ms at 2020-06-08 00:00:01.000
+2020-06-07 17:08:08,740 INFO 8960 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-07 17:08:08,740 INFO 8960 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-06-07 17:08:08,740 INFO 8960 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-07 17:24:26,068 INFO 9268 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-07 17:24:26,068 INFO 9268 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-06-07 17:24:26,068 INFO 9268 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-07 17:24:33,638 INFO 9293 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-07 17:24:33,638 INFO 9293 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-06-07 17:24:33,638 INFO 9293 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-07 17:24:39,143 INFO 9304 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-07 17:24:39,143 INFO 9304 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-06-07 17:24:39,143 INFO 9304 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-26 14:58:41,585 INFO 3146 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-26 14:58:41,585 INFO 3146 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-06-26 14:58:41,585 INFO 3146 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-26 14:58:53,408 INFO 3162 [Timer] /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48666594ms at 2020-06-27 04:30:00.002
+2020-06-26 14:58:53,408 INFO 3162 [Timer] /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 32466592ms at 2020-06-27 00:00:00.000
+2020-06-26 14:58:53,408 INFO 3162 [Timer] /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32467592ms at 2020-06-27 00:00:01.000
+2020-06-26 14:58:53,316 INFO 3163 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-26 14:58:53,316 INFO 3163 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-06-26 14:58:53,316 INFO 3163 [egg-schedule]: register schedule /Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js

@@ -1,0 +1,713 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function v4>"
+    },
+    "security": {
+      "domainWhiteList": [
+        "http://localhost:7001",
+        "http://127.0.0.1:7001",
+        "http://192.168.1.108:7001",
+        "http://localhost:9000",
+        "http://127.0.0.1:9000",
+        "http://192.168.1.108:9000",
+        "http://localhost:9001",
+        "http://127.0.0.1:9001",
+        "http://192.168.1.108:9001"
+      ],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": true,
+        "type": "ctoken",
+        "ignoreJSON": false,
+        "useSession": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "refererWhiteList": [],
+        "matching": "<Function anonymous>"
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-session@3.2.0@egg-session/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-onerror@2.1.0@egg-onerror/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-i18n@2.1.1@egg-i18n/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-watcher@3.1.1@egg-watcher/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-schedule@3.6.4@egg-schedule/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-development@2.5.0@egg-development/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-static@2.2.0@egg-static/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view@2.1.2@egg-view/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-serviceworker@1.0.0@egg-serviceworker/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-router-plus@1.3.1@egg-router-plus/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-cors@2.2.3@egg-cors/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-webpack@4.5.3@egg-webpack/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-webpack-vue@2.0.2@egg-webpack-vue/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logview@1.0.1@egg-logview/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/locales",
+        "/Users/dsh/Desktop/eggVue2/edgarserver/config/locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieDomain": "",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-watcher@3.1.1@egg-watcher/lib/event-sources/default",
+        "development": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-watcher@3.1.1@egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null,
+      "tmpdir": "/var/folders/0x/855mpxbd71v4_w9dy3pg287c0000gn/T/egg-multipart-tmp/edgar-server",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
+    },
+    "development": {
+      "watchDirs": [
+        "build"
+      ],
+      "ignoreDirs": [
+        "app/web",
+        "public",
+        "config"
+      ],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/dsh/Desktop/eggVue2/edgarserver/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000,
+      "maxAge": 0
+    },
+    "view": {
+      "root": [
+        "/Users/dsh/Desktop/eggVue2/edgarserver/app/view"
+      ],
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {
+        ".js": "vue"
+      }
+    },
+    "vuessr": {
+      "doctype": "<!doctype html>",
+      "layout": "/Users/dsh/Desktop/eggVue2/edgarserver/app/web/view/layout.html",
+      "manifest": "/Users/dsh/Desktop/eggVue2/edgarserver/config/manifest.json",
+      "injectHeadRegex": "/(<\\/head>)/i",
+      "injectBodyRegex": "/(<\\/body>)/i",
+      "injectCss": false,
+      "injectJs": true,
+      "injectRes": [],
+      "crossorigin": false,
+      "mergeLocals": true,
+      "fallbackToClient": true,
+      "viewEngine": "nunjucks",
+      "cache": {
+        "max": 1000,
+        "maxAge": 604800000
+      },
+      "renderOptions": {
+        "runInNewContext": "once",
+        "basedir": "/Users/dsh/Desktop/eggVue2/edgarserver/app/view"
+      },
+      "afterRender": "<Function afterRender>"
+    },
+    "serviceworker": {
+      "dir": "/Users/dsh/Desktop/eggVue2/edgarserver/public",
+      "mapping": "/Users/dsh/Desktop/eggVue2/edgarserver/public/sw-mapping.json"
+    },
+    "cors": {
+      "origin": "<Function corsOrigin>"
+    },
+    "webpack": {
+      "port": 9000,
+      "proxy": {
+        "host": "http://127.0.0.1:9000",
+        "match": "/^\\/public\\//"
+      },
+      "webpackConfigList": [],
+      "browser": "http://localhost:7001"
+    },
+    "logview": {
+      "prefix": "__logs",
+      "staticHost": "https://unpkg.cnpmjs.org",
+      "dir": "/Users/dsh/Desktop/eggVue2/edgarserver/logs"
+    },
+    "env": "local",
+    "name": "edgar-server",
+    "keys": "<String len: 6>",
+    "cookies": {},
+    "proxy": false,
+    "maxIpsCount": 0,
+    "maxProxyCount": 0,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "edgar-server",
+      "version": "0.4.0",
+      "description": "基于 Egg + Vue + EasyWebpack 多页面和单页面服务端客户端渲染同构工程；UI解决方案iView + vant",
+      "scripts": {
+        "debug": "egg-bin debug",
+        "build": "cross-env easy clean && easy build prod",
+        "build:dev": "cross-env easy clean && easy build dev",
+        "build:test": "cross-env easy clean && easy build test",
+        "build:prod": "cross-env easy clean && easy build prod",
+        "dev": "cross-env WORKERS=1 node index.js",
+        "start": "cross-env EGG_SERVER_ENV=prod NODE_ENV=production egg-scripts start --port=38083 --daemon --title=edgar-server",
+        "stop": "egg-scripts stop --title=edgar-server",
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+      },
+      "dependencies": {
+        "area-data": "^1.0.0",
+        "axios": "^0.17.1",
+        "babel-polyfill": "^6.26.0",
+        "babel-runtime": "^6.26.0",
+        "clipboard": "^1.7.1",
+        "cropperjs": "^1.2.2",
+        "cross-env": "^5.0.0",
+        "echarts": "^4.0.4",
+        "egg": "^2.1.0",
+        "egg-bin": "^4.3.7",
+        "egg-cors": "^2.0.0",
+        "egg-logger": "^1.5.0",
+        "egg-router-plus": "^1.2.1",
+        "egg-scripts": "^2.6.0",
+        "egg-serviceworker": "^1.0.0",
+        "egg-validate": "^1.0.0",
+        "egg-view-vue-ssr": "^3.0.2",
+        "extend": "\\x7e3.0.0",
+        "iview": "^2.13.1",
+        "iview-area": "^1.5.16",
+        "js-cookie": "^2.2.0",
+        "lodash": "^4.17.4",
+        "moment": "^2.17.1",
+        "service-worker-register": "^1.2.4",
+        "svg-captcha": "^1.3.11",
+        "uuid": "^3.2.1",
+        "vant": "^1.1.5",
+        "vue": "^2.5.16",
+        "vue-hot-reload-api": "^2.1.0",
+        "vue-router": "^3.0.1",
+        "vue-script2": "^2.0.3",
+        "vue-virtual-scroller": "^0.10.6",
+        "vuex": "^3.0.1",
+        "vuex-router-sync": "^5.0.0"
+      },
+      "devDependencies": {
+        "autod-egg": "^1.0.0",
+        "autoprefixer": "^7.1.4",
+        "babel-eslint": "^8.0.1",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-import": "^1.7.0",
+        "babel-plugin-syntax-dynamic-import": "^6.18.0",
+        "babel-plugin-transform-object-assign": "^6.22.0",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-plugin-transform-runtime": "^6.15.0",
+        "babel-preset-env": "^1.6.0",
+        "easywebpack-cli": "^3.8.0",
+        "easywebpack-vue": "^4.0.0",
+        "egg-logview": "^1.0.0",
+        "egg-webpack": "^4.0.1",
+        "egg-webpack-vue": "^2.0.0",
+        "eslint": "^4.3.0",
+        "eslint-config-egg": "^5.0.0",
+        "eslint-plugin-vue": "^2.0.1",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "imagemin-webpack-plugin": "^2.0.0",
+        "ip": "^1.1.5",
+        "less": "^2.7.2",
+        "less-loader": "^4.0.5",
+        "node-sass": "^4.5.3",
+        "sass-loader": "^6.0.6",
+        "uglifyjs-webpack-plugin": "^1.1.2",
+        "vconsole": "^3.0.0",
+        "vue-i18n": "^6.1.3"
+      },
+      "engines": {
+        "node": ">=8.0.0"
+      },
+      "ci": {
+        "version": "8, 9"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+"
+      },
+      "author": "410539020@qq.com",
+      "license": "MIT",
+      "homepage": "http://git+"
+    },
+    "baseDir": "/Users/dsh/Desktop/eggVue2/edgarserver",
+    "HOME": "/Users/dsh",
+    "rundir": "/Users/dsh/Desktop/eggVue2/edgarserver/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 4286>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "1mb",
+      "jsonLimit": "1mb",
+      "textLimit": "1mb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "/Users/dsh/Desktop/eggVue2/edgarserver/logs",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "DEBUG",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "edgar-server-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "cors",
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "serviceworker",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n",
+      "eggLoaderTrace",
+      "logview"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "middleware": [
+      "access"
+    ],
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-session@3.2.0@egg-session",
+      "version": "3.2.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security",
+      "version": "2.8.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-onerror@2.1.0@egg-onerror",
+      "version": "2.1.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-i18n@2.1.1@egg-i18n",
+      "version": "2.1.1"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-watcher@3.1.1@egg-watcher",
+      "version": "3.1.1"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-schedule@3.6.4@egg-schedule",
+      "version": "3.6.4"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart",
+      "version": "2.10.3"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-development@2.5.0@egg-development",
+      "version": "2.5.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
+      "version": "3.1.0"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-static@2.2.0@egg-static",
+      "version": "2.2.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view@2.1.2@egg-view",
+      "version": "2.1.2"
+    },
+    "vuessr": {
+      "enable": true,
+      "package": "egg-view-vue-ssr",
+      "name": "vuessr",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr",
+      "version": "3.3.2"
+    },
+    "serviceworker": {
+      "enable": true,
+      "package": "egg-serviceworker",
+      "name": "serviceworker",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-serviceworker@1.0.0@egg-serviceworker",
+      "version": "1.0.0"
+    },
+    "routerPlus": {
+      "enable": true,
+      "package": "egg-router-plus",
+      "name": "routerPlus",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/config/plugin.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-router-plus@1.3.1@egg-router-plus",
+      "version": "1.3.1"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/config/plugin.local.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-cors@2.2.3@egg-cors",
+      "version": "2.2.3"
+    },
+    "webpack": {
+      "enable": true,
+      "package": "egg-webpack",
+      "name": "webpack",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/config/plugin.local.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-webpack@4.5.3@egg-webpack",
+      "version": "4.5.3"
+    },
+    "webpackvue": {
+      "enable": true,
+      "package": "egg-webpack-vue",
+      "name": "webpackvue",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/config/plugin.local.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-webpack-vue@2.0.2@egg-webpack-vue",
+      "version": "2.0.2"
+    },
+    "logview": {
+      "package": "egg-logview",
+      "env": [
+        "local"
+      ],
+      "enable": true,
+      "name": "logview",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "from": "/Users/dsh/Desktop/eggVue2/edgarserver/config/plugin.local.js",
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logview@1.0.1@egg-logview",
+      "version": "1.0.1"
+    }
+  }
+}

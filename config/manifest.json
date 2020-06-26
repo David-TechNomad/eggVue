@@ -1,0 +1,49 @@
+{
+  "chunk/0.js": "/public/js/chunk/0.js",
+  "chunk/1.js": "/public/js/chunk/1.js",
+  "chunk/2.js": "/public/js/chunk/2.js",
+  "chunk/3.js": "/public/js/chunk/3.js",
+  "chunk/4.js": "/public/js/chunk/4.js",
+  "chunk/5.js": "/public/js/chunk/5.js",
+  "chunk/6.js": "/public/js/chunk/6.js",
+  "chunk/7.js": "/public/js/chunk/7.js",
+  "chunk/8.js": "/public/js/chunk/8.js",
+  "app/app.js": "/public/js/chunk/app/app.js",
+  "common.js": "/public/js/chunk/common.js",
+  "index/index.js": "/public/js/chunk/index/index.js",
+  "runtime.js": "/public/js/runtime.js",
+  "font/iconfont.eot?t=1528626936573": "/public/font/iconfont.eot",
+  "font/iconfont.ttf?t=1528626936573": "/public/font/iconfont.ttf",
+  "font/ionicons.eot?v=2.0.0": "/public/font/ionicons.eot",
+  "font/ionicons.ttf?v=2.0.0": "/public/font/ionicons.ttf",
+  "font/ionicons.woff?v=2.0.0": "/public/font/ionicons.woff",
+  "img/iconfont.svg?t=1528626936573": "/public/img/iconfont.svg",
+  "img/ionicons.svg?v=2.0.0": "/public/img/ionicons.svg",
+  "img/login_bg_aliyun.jpg": "/public/img/login_bg_aliyun.jpg",
+  "vendor.js": "/public/js/vendor.js",
+  "deps": {
+    "app/app.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/app/app.js"
+      ],
+      "css": []
+    },
+    "index/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/index/index.js"
+      ],
+      "css": []
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "public",
+    "mapped": true
+  }
+}

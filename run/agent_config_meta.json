@@ -1,0 +1,388 @@
+{
+  "siteFile": {
+    "/favicon.ico": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.default.js"
+  },
+  "view": {
+    "cache": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
+    "root": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "defaultExtension": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "mapping": {
+      ".js": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js"
+    }
+  },
+  "vuessr": {
+    "layout": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.default.js",
+    "renderOptions": {
+      "basedir": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.default.js",
+      "runInNewContext": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js"
+    },
+    "injectCss": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.local.js",
+    "doctype": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js",
+    "manifest": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js",
+    "injectHeadRegex": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js",
+    "injectBodyRegex": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js",
+    "injectJs": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js",
+    "injectRes": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js",
+    "crossorigin": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js",
+    "mergeLocals": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js",
+    "fallbackToClient": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js",
+    "viewEngine": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js",
+    "cache": {
+      "max": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js",
+      "maxAge": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js"
+    },
+    "afterRender": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-view-vue-ssr@3.3.2@egg-view-vue-ssr/config/config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.default.js",
+    "dir": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.default.js",
+    "encoding": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "env": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "level": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "outputJSON": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "buffer": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "appLogName": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "coreLogName": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "agentLogName": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "errorLogName": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.default.js",
+    "dir": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.default.js",
+    "maxAge": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.local.js",
+    "dynamic": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxFiles": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
+  },
+  "keys": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.default.js",
+  "middleware": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.default.js",
+  "development": {
+    "watchDirs": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.local.js",
+    "ignoreDirs": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.local.js",
+    "fastReady": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-development@2.5.0@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-development@2.5.0@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-development@2.5.0@egg-development/config/config.default.js"
+  },
+  "logview": {
+    "dir": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.local.js",
+    "prefix": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logview@1.0.1@egg-logview/config/config.default.js",
+    "staticHost": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logview@1.0.1@egg-logview/config/config.default.js"
+  },
+  "webpack": {
+    "browser": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.local.js",
+    "port": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-webpack@4.5.3@egg-webpack/config/config.default.js",
+    "proxy": {
+      "host": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-webpack@4.5.3@egg-webpack/config/config.default.js",
+      "match": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-webpack@4.5.3@egg-webpack/config/config.default.js"
+    },
+    "webpackConfigList": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-webpack@4.5.3@egg-webpack/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/dsh/Desktop/eggVue2/edgarserver/config/config.local.js",
+    "protocolWhiteList": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "type": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "useSession": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "cookieName": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "sessionName": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "headerName": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "bodyName": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "queryName": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "value": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.local.js",
+      "maxAge": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "value": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "value": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "policy": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "checkAddress": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-session@3.2.0@egg-session/config/config.default.js",
+    "key": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-session@3.2.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-session@3.2.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-session@3.2.0@egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "dirs": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "queryField": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.default.js",
+      "development": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js",
+      "file": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "fields": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "files": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
+  },
+  "serviceworker": {
+    "dir": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-serviceworker@1.0.0@egg-serviceworker/config/config.default.js",
+    "mapping": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-serviceworker@1.0.0@egg-serviceworker/config/config.default.js"
+  },
+  "cors": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg-cors@2.2.3@egg-cors/config/config.default.js",
+  "env": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "name": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "cookies": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "proxy": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "maxIpsCount": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "maxProxyCount": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "protocolHeaders": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "ipHeaders": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "hostHeaders": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "version": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "description": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "scripts": {
+      "debug": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "build": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "build:dev": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "build:test": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "build:prod": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "dev": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "start": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "stop": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "lint": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "fix": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+    },
+    "dependencies": {
+      "area-data": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "axios": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "babel-polyfill": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "babel-runtime": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "clipboard": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "cropperjs": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "cross-env": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "echarts": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "egg": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "egg-bin": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "egg-cors": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "egg-logger": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "egg-router-plus": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "egg-scripts": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "egg-serviceworker": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "egg-validate": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "egg-view-vue-ssr": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "extend": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "iview": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "iview-area": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "js-cookie": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "lodash": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "moment": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "service-worker-register": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "svg-captcha": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "uuid": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "vant": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "vue": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "vue-hot-reload-api": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "vue-router": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "vue-script2": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "vue-virtual-scroller": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "vuex": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "vuex-router-sync": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod-egg": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "autoprefixer": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "babel-eslint": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "babel-plugin-add-module-exports": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "babel-plugin-import": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "babel-plugin-syntax-dynamic-import": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "babel-plugin-transform-object-assign": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "babel-plugin-transform-object-rest-spread": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "babel-plugin-transform-runtime": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "babel-preset-env": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "easywebpack-cli": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "easywebpack-vue": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "egg-logview": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "egg-webpack": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "egg-webpack-vue": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "eslint": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "eslint-config-egg": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "eslint-plugin-vue": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "extract-text-webpack-plugin": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "imagemin-webpack-plugin": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "ip": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "less": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "less-loader": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "node-sass": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "sass-loader": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "uglifyjs-webpack-plugin": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "vconsole": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "vue-i18n": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "url": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+    },
+    "author": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "license": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "homepage": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+  },
+  "baseDir": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "HOME": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "rundir": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "notFound": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "sitefile": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "middlewares": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "httpClient": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "encoding": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "formLimit": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "jsonLimit": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "textLimit": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "strict": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "depth": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "parameterLimit": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+    },
+    "onerror": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "maxSockets": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "maxSockets": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "logging": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "serverTimeout": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "port": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "hostname": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js",
+    "responseTimeout": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/dsh/Desktop/eggVue2/edgarserver/node_modules/_egg@2.26.1@egg/config/config.default.js"
+}
